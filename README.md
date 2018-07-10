@@ -9,10 +9,10 @@ Module Library: keras, Tensorflow<br>
 ## Install: 導入<br>
 
 大規模数値計算ライブラリTensorflow<br>
-[TensorFLow インストールガイド](https://github.com/whitetokyo/r-d/tree/master/machine-learning/install/install-tensorflow)
+[TensorFLow インストールガイド](https://github.com/xxxHAL/machine-learning/tree/master/install/install-tensorflow)
 
 深層学習ラッパーライブラリKeras<br>
-[Keras インストールガイド](https://github.com/whitetokyo/r-d/tree/master/machine-learning/install/install-keras)
+[Keras インストールガイド](https://github.com/xxxHAL/machine-learning/tree/master/install/install-keras)
 
 ## Reseach: 基礎研究<br>
 
@@ -20,8 +20,7 @@ Module Library: keras, Tensorflow<br>
 
 ## Survey<br>
 
-競合他社、最新の技術等<br>
-Investigate the status of competing companies
+最新の技術等<br>
 
 
 <br>
