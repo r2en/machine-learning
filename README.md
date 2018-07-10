@@ -41,7 +41,7 @@ Module Library: keras, Tensorflow<br>
     - [ランダムフォレスト](https://github.com/xxxHAL/machine-learning/tree/master/random-forest)
 - データの検証方法
     - [クロスバリデーション](https://github.com/xxxHAL/machine-learning/tree/master/verification/cross-validation)
-    - グリッドサーチ
+    - [グリッドサーチ](https://github.com/xxxHAL/machine-learning/tree/master/verification/grid-search)
 - 転移学習
 - 深層学習
 
