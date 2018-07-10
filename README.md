@@ -40,7 +40,7 @@ Module Library: keras, Tensorflow<br>
 - アンサンブル学習
     - [ランダムフォレスト](https://github.com/xxxHAL/machine-learning/tree/master/random-forest)
 - データの検証方法
-    - クロスバリデーション
+    - [クロスバリデーション](https://github.com/xxxHAL/machine-learning/tree/master/verification/cross-validation)
     - グリッドサーチ
 - 転移学習
 - 深層学習
@@ -48,7 +48,7 @@ Module Library: keras, Tensorflow<br>
 画像認識
 - 物体検出<br>
 
-[・VGG16による物体認識](https://github.com/xxxHAL/vgg16)<br>
+    - [・VGG16による物体認識](https://github.com/xxxHAL/vgg16)<br>
 
 音声認識
 - アカペラ抽出
