@@ -36,5 +36,6 @@ for testc in csvk:
         if i != testc: trainc += i
     sc = calc_score(testc, trainc)
     score_list.append(sc)
+    
 print("各正解率=", score_list)
 print("平均正解率=", sum(score_list) / len(score_list))
