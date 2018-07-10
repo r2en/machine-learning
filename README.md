@@ -43,13 +43,7 @@ Module Library: keras, Tensorflow<br>
 画像認識
 - 物体検出<br>
 
-[・Automatic system for juding attendance(勤怠自動化システム)](https://github.com/whitetokyo/R_D/tree/master/Machine_Learning/ASJA)<br>
-
 [・VGG16による物体認識](https://github.com/xxxHAL/vgg16)<br>
-
-- (画像キャプション生成)
-- (画像スタイル変換)
-- (画像生成)
 
 音声認識
 - アカペラ抽出
