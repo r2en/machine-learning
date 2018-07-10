@@ -38,7 +38,10 @@ Module Library: keras, Tensorflow<br>
 - 前処理<br>
     - [Data Argumentation](https://github.com/xxxHAL/data-argumentation)
 - アンサンブル学習
-    - ランダムフォレスト
+    - [ランダムフォレスト](https://github.com/xxxHAL/machine-learning/tree/master/random-forest)
+- データの検証方法
+    - クロスバリデーション
+    - グリッドサーチ
 - 転移学習
 - 深層学習
 
