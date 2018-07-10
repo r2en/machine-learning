@@ -35,8 +35,10 @@ Module Library: keras, Tensorflow<br>
 ## Development: 実装<br>
 
 機械学習
-- データ水増し<br>
-[Data Argumentation](https://github.com/xxxHAL/data-argumentation)
+- 前処理<br>
+    - [Data Argumentation](https://github.com/xxxHAL/data-argumentation)
+- アンサンブル学習
+    - ランダムフォレスト
 - 転移学習
 - 深層学習
 
