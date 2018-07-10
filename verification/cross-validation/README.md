@@ -13,4 +13,5 @@
 4. Cをテストデータ、残りのA/Bを訓練データとして分類精度S1を求める
 5. 分類精度S1, S2, S3の平均を求めて分類精度とする<br>
 <br>
+
 ![image](https://user-images.githubusercontent.com/17031124/42502738-d2ff50ca-8471-11e8-8307-ac6f5a22e109.png)
