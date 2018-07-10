@@ -8,10 +8,10 @@
 最も良い評価値となるハイパーパラメータを選択するというのがグリッドサーチです。<br>
 <br>
 
-![image](https://user-images.githubusercontent.com/17031124/42511359-a04b04c4-848c-11e8-80aa-54a9943509b5.png)
+![grid-1](https://user-images.githubusercontent.com/17031124/42511523-05ad39cc-848d-11e8-8aa6-a9257c930968.png)
 
 <br>
 
-![image](https://user-images.githubusercontent.com/17031124/42511377-ab9e31fc-848c-11e8-98bd-cb7d6d240165.png)
+![grid_search-1](https://user-images.githubusercontent.com/17031124/42511521-0582a00e-848d-11e8-8da4-4db6be25f833.png)
 
 <br>
