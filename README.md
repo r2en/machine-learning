@@ -36,7 +36,7 @@ Module Library: keras, Tensorflow<br>
 
 機械学習
 - データ水増し<br>
-[Data Argumentation](https://github.com/whitetokyo/r-d/tree/master/machine-learning/data-argumentation)
+[Data Argumentation](https://github.com/xxxHAL/data-argumentation)
 - 転移学習
 - 深層学習
 
