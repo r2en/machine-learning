@@ -27,8 +27,7 @@ Module Library: keras, Tensorflow<br>
 
 ## Paper: 論文リスト<br>
 
-[機械学習関連の論文](https://speakerdeck.com/end98)<br>
-Investigate papers related to machine learning
+[機械学習関連の論文]()<br>
 
 <br>
 
