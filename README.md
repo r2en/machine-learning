@@ -46,6 +46,8 @@ Module Library: keras, Tensorflow<br>
 - 深層学習
 
 画像認識
+- 文字認識<br>
+    - [・MNIST手学数字の認識]()
 - 物体検出<br>
 
     - [・VGG16による物体認識](https://github.com/xxxHAL/vgg16)<br>
