@@ -45,7 +45,7 @@ Module Library: keras, Tensorflow<br>
 
 [・Automatic system for juding attendance(勤怠自動化システム)](https://github.com/whitetokyo/R_D/tree/master/Machine_Learning/ASJA)<br>
 
-[・VGG16による物体認識](https://github.com/whitetokyo/r-d/tree/master/machine-learning/vgg16)<br>
+[・VGG16による物体認識](https://github.com/xxxHAL/vgg16)<br>
 
 - (画像キャプション生成)
 - (画像スタイル変換)
