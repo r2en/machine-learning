@@ -1,10 +1,10 @@
 # Cross Validation: クロスバリデーション
-
+<br>
 機械学習のモデルの妥当性を検証する方法の一つ<br>
 最初に全てのデータを、訓練データとテストデータに分割して、<br>
 訓練データを用いて学習を行い、テストデータを用いて学習の妥当性を検証する<br>
 <br>
-Ex. K分割交差確認(k-fold cross validation)
+#### Ex. K分割交差確認(k-fold cross validation)
 集合XをA/B/Cのさん分割する場合
 
 1. 集合Xを、AとBとCに分割
