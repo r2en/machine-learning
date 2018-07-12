@@ -117,7 +117,7 @@ def main():
                   optimizer='adam',
                   metrics=['accuracy'])
     
-    #visualize_filter(model, nb_filters)
+    visualize_filter(model, nb_filters)
     
     early_stopping = EarlyStopping()
 
@@ -128,7 +128,7 @@ def main():
                         validation_split=0.1,
                         callbacks=[early_stopping])
 
-    visualize_filter(model, nb_filters)
+    #visualize_filter(model, nb_filters)
 
     plot_history(history, 'result_mnist')
 
