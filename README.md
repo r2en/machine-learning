@@ -36,21 +36,28 @@ Module Library: keras, Tensorflow<br>
 
 機械学習
 - 前処理<br>
-    - [Data Argumentation](https://github.com/xxxHAL/data-argumentation)
+    - [Data Argumentation:Keras](https://github.com/xxxHAL/data-argumentation)
 - アンサンブル学習
-    - [ランダムフォレスト](https://github.com/xxxHAL/machine-learning/tree/master/random-forest)
+    - [ランダムフォレスト:Sklearn](https://github.com/xxxHAL/machine-learning/tree/master/random-forest)
 - データの検証方法
-    - [クロスバリデーション](https://github.com/xxxHAL/machine-learning/tree/master/verification/cross-validation)
-    - [グリッドサーチ](https://github.com/xxxHAL/machine-learning/tree/master/verification/grid-search)
+    - [クロスバリデーション:Sklean](https://github.com/xxxHAL/machine-learning/tree/master/verification/cross-validation)
+    - [グリッドサーチ:Sklearn](https://github.com/xxxHAL/machine-learning/tree/master/verification/grid-search)
 - 転移学習
+- 機械学習
+    - ２クラスロジスティック回帰:Keras
+    - ２クラス分類:Keras
+    - 多クラス分類:Keras
+    - MNIST:Keras
 - 深層学習
+    - 畳み込みニューラルネットワーク:Keras
 
 画像認識
 - 文字認識<br>
-    - [・MNIST手学数字の認識](https://github.com/xxxHAL/machine-learning/tree/master/verification/grid-search)<br>
+    - [・MNIST](https://github.com/xxxHAL/machine-learning/tree/master/keras)<br>
 - 物体検出<br>
 
-    - [・VGG16による物体認識](https://github.com/xxxHAL/vgg16)<br>
+    - [・VGG16による物体認識:Keras](https://github.com/xxxHAL/vgg16)<br>
+    - CIFAR-10の一般物体認識:Keras
 
 音声認識
 - アカペラ抽出
