@@ -64,7 +64,7 @@ Module Library: keras, Tensorflow<br>
 
 自然言語処理
 - 人工無脳<br>
-[・人工痴能チノちゃん(マルコフ連鎖内蔵)](https://github.com/whitetokyo/r-d/tree/master/machine-learning/nobrain-chino)
+    - [人工痴能チノちゃん(マルコフ連鎖内蔵)](https://github.com/whitetokyo/r-d/tree/master/machine-learning/nobrain-chino)
 
 ゲームAI
 - Deep Q-Network
