@@ -53,7 +53,7 @@ Module Library: keras, Tensorflow<br>
 
 画像認識
 - 文字認識<br>
-    - [MNIST](https://github.com/xxxHAL/machine-learning/tree/master/keras)<br>
+    - [MNIST](https://github.com/xxxHAL/machine-learning/tree/master/keras/mnist)<br>
 - 物体検出<br>
 
     - [VGG16による物体認識:Keras](https://github.com/xxxHAL/vgg16)<br>
