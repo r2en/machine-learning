@@ -51,6 +51,16 @@ def build_cnn(x_train, nb_classes):
 
     return model
 
+def load_model(image_dir):
+    model_file = os.path.join(image_dir, 'model.json')
+    weight_file = os.path.join(image_dir, 'model.h5')
+
+    with open(model_file, 'r') as fp:
+        model = model_from_json(fp.read())
+    model.load_weights(weight_file)
+
+    return model
+
 def main():
     '''
     if len(sys.argv) != 4:
@@ -63,7 +73,7 @@ def main():
     if not os.path.exists(result_dir):
         os.mkdir(result_dir)
     '''
-
+    # data_load
     nb_epoch = 30
     data_augmentation = False
     image_dir = 'cifar10'
@@ -86,16 +96,7 @@ def main():
     y_train = np_utils.to_categorical(y_train, nb_classes)
     y_test = np_utils.to_categorical(y_test, nb_classes)
 
-    #model = build_cnn(x_train, nb_classes)
-    #model = load_model(image_dir)
-
-    model_file = os.path.join(image_dir, 'model.json')
-    weight_file = os.path.join(image_dir, 'model.h5')
-
-    with open(model_file, 'r') as fp:
-        model = model_from_json(fp.read())
-    model.load_weights(weight_file)
-
+    model = load_model(image_dir)
     model.summary()
 
     model.compile(
@@ -112,11 +113,6 @@ def main():
         validation_data=(x_test, y_test),
         shuffle=True
     )
-
-
-    model.compile(loss='categorical_crossentropy',
-                  optimizer='adam',
-                  metrics=['accuracy'])
 
     model_json = model.to_json()
     with open(os.path.join(image_dir, 'model.json'), 'w') as json_file:
