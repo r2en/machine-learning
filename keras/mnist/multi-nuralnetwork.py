@@ -154,13 +154,12 @@ def main():
     
     data = nomalization(X_train, Y_train, X_test, Y_test, img_rows, img_cols, nb_classes)
 
-    '''
     if os.path.exists(os.path.join(image_dir, 'model.h5')):
         model = load_cnn(image_dir)
     else:
         model = build_cnn(data['input_shape'], nb_filters, filter_size, pool_size, nb_classes)
-    '''
-    model = build_cnn(data['input_shape'], nb_filters, filter_size, pool_size, nb_classes)
+
+    #model = build_cnn(data['input_shape'], nb_filters, filter_size, pool_size, nb_classes)
 
     model.summary()
     #plot(model, show_shapes=True, to_file='result_mnist/model.png')
